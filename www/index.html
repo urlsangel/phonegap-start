@@ -16,6 +16,8 @@
     // device APIs are available
     //
     function onDeviceReady() {
+        var element = document.getElementById('accelerometer');
+        element.innerHTML = 'On device ready called.';
         startWatch();
     }
 
